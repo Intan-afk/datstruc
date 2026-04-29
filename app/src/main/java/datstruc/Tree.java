@@ -20,7 +20,7 @@ class TreeNode<T> {
 
 // 2. Definisi Tree (Ini yang public)
 public class Tree<T> {
-    private TreeNode<T> root;
+    private final TreeNode<T> root;
 
     public Tree(TreeNode<T> root) {
         this.root = root;
